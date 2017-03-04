@@ -1,0 +1,3 @@
+#Dubbo Registry Cache
+#Sat Mar 04 23:40:27 CST 2017
+cn.wjh.platformserv.system.api.service.ISystemService=empty\://192.168.140.1\:20000/cn.wjh.platformserv.system.api.service.ISystemService?anyhost\=true&application\=platformserv-system-provider&category\=configurators&check\=false&dubbo\=2.8.4&generic\=false&interface\=cn.wjh.platformserv.system.api.service.ISystemService&logger\=slf4j&methods\=deleteMenuById,getUserById,getUserByLoginName,deleteRoleById,findUserPage,saveRole,findAllRoleList,getMenuList,findRolePage,getMenuTree,saveMenu,getRoleById,getMenuById,updateUserInfo,updateUserPasswordById,getMenuNav,saveUser,deleteUserById&owner\=michaelfreeman&pid\=73448&side\=provider&timeout\=5000&timestamp\=1488642015714
