@@ -1,8 +1,8 @@
 package cn.wjh.platformserv.common.service.dao;
 
+import java.util.List;
 import java.util.Map;
 
-import com.sun.tools.javac.util.List;
 
 /**
  * DAO支持类实现

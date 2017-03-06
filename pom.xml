@@ -17,7 +17,7 @@
         <relativePath/>
     </parent>
 
-	<repositories>
+	<!-- <repositories>
         <repository>
             <id>nexus</id>
             <name>nexus</name>
@@ -30,6 +30,21 @@
             <id>nexus</id>
             <name>nexus</name>
             <url>http://192.168.1.110:8081/repository/maven-public/</url>
+        </pluginRepository>
+    </pluginRepositories> -->
+    <repositories>
+        <repository>
+            <id>nexus</id>
+            <name>nexus</name>
+            <url>http://115.28.32.143:8081/repository/maven-public/</url>
+        </repository>
+    </repositories>
+
+    <pluginRepositories>
+        <pluginRepository>
+            <id>nexus</id>
+            <name>nexus</name>
+            <url>http://115.28.32.143:8081/repository/maven-public/</url>
         </pluginRepository>
     </pluginRepositories>
 
@@ -276,5 +291,6 @@
   <modules>
     <module>platformserv-common</module>
     <module>platformserv-system</module>
+    <module>platformserv-admin-web</module>
   </modules>
 </project>

@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: Platformserv Web Admin
+  profiles:
+    active: @profileActive@
