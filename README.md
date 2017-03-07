@@ -20,7 +20,7 @@
 # 后续计划
 - 采用Node.js／AngularJS实现前端内容
 - 实现fastdfs文件存储
-- 采用rocketmq实现对高并发下请求对处理
+- 采用rocketmq实现对高并发下请求的处理
 - 采用spring schedule做定时任务的处理
 
 ---
