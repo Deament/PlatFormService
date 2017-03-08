@@ -15,7 +15,7 @@
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>1.5.1.RELEASE</version>
         <relativePath/>
-    </parent>
+  </parent>
 
 	<!-- <repositories>
         <repository>
@@ -74,6 +74,7 @@
         <thumbnailator.version>0.4.8</thumbnailator.version>
         <pinyin4j.version>2.5.1</pinyin4j.version>
         <webmagic.version>0.6.1</webmagic.version>
+        <fastdfs.version>1.25.2-RELEASE</fastdfs.version>
     </properties>
 
     <dependencyManagement>
@@ -104,7 +105,13 @@
                 <artifactId>dubbo</artifactId>
                 <version>${dubbo.version}</version>
             </dependency>
-
+            
+            <!-- fastdfs client tobato -->
+			<dependency>
+			    <groupId>com.github.tobato</groupId>
+			    <artifactId>fastdfs-client</artifactId>
+			    <version>${fastdfs.version}</version>
+			</dependency>
             <!-- zookeeper start -->
             <dependency>
                 <groupId>com.netflix.curator</groupId>

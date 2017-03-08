@@ -18,5 +18,6 @@
     <module>platformserv-common-service</module>
     <module>platformserv-common-api</module>
     <module>platformserv-common-web</module>
+    <module>platformserv-common-fastdfs</module>
   </modules>
 </project>
