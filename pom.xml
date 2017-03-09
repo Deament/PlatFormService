@@ -75,10 +75,16 @@
         <pinyin4j.version>2.5.1</pinyin4j.version>
         <webmagic.version>0.6.1</webmagic.version>
         <fastdfs.version>1.25.2-RELEASE</fastdfs.version>
+        <junit.version>4.12</junit.version>
     </properties>
 
     <dependencyManagement>
         <dependencies>
+        	<dependency>
+        		<groupId>junit</groupId>
+        		<artifactId>junit</artifactId>
+        		<version>${junit.version}</version>
+        	</dependency>
             <dependency>
                 <groupId>org.aspectj</groupId>
                 <artifactId>aspectjrt</artifactId>

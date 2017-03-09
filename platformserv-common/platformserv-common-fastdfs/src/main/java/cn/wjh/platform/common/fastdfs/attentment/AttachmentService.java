@@ -2,7 +2,6 @@ package cn.wjh.platform.common.fastdfs.attentment;
 
 
 import java.io.File;
-import java.io.InputStream;
 
 import org.springframework.web.multipart.MultipartFile;
 
@@ -15,38 +14,39 @@ public interface AttachmentService {
      * @param multipartFile
      * @return
      */
-    String upload(MultipartFile multipartFile);
+    String upload(MultipartFile multipartFile) throws Exception;
 
     /**
      * 通过InputStream对象保存文件，返回文件名称
      * @param inputStream
      * @return
      */
-    String upload(InputStream inputStream, String type);
+//    String upload(InputStream inputStream, String fileExtension) throws Exception;
 
     /**
-     * 通过File对象保存文件，返回文件名称
-     * @param file
-     * @param type
+     * 将一段字符串生成一个文件上传
+     * @param content
+     * @param fileExtension
      * @return
+     * @throws Exception
      */
-    String upload(File file, String type);
+    String upload(String content, String fileExtension) throws Exception;
     
     /**
      * 获取文件路径
      */
-    String getPath();
+    String getPath() throws Exception;
 
     /**
      * 通过id获取文件
      * @param
      * @return
      */
-    File download(String id);
+    File download(String id) throws Exception;
 
     /**
      * 根据id删除文件
-     * @param id
+     * @param fileUrl
      */
-    void delete(String id);
+    void delete(String fileUrl) throws Exception;
 }
